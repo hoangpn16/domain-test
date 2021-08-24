@@ -1,10 +1,7 @@
-package vccorp.domainresgistration.repository.entity;
+package vccorp.domainresgistration.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import vccorp.domainresgistration.enumerates.DomainType;
-import vccorp.domainresgistration.enumerates.LogType;
-import vccorp.domainresgistration.enumerates.Status;
 
 import javax.persistence.*;
 import java.util.ArrayList;

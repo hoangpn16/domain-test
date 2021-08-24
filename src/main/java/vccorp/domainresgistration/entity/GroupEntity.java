@@ -1,8 +1,7 @@
-package vccorp.domainresgistration.repository.entity;
+package vccorp.domainresgistration.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import vccorp.domainresgistration.enumerates.Status;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,7 +9,8 @@ import java.util.List;
 
 @Entity
 @Table(name = "groups")
-@Getter @Setter
+@Getter
+@Setter
 public class GroupEntity extends BaseEntity{
     private String groupName;
     private String description;

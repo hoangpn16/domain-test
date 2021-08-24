@@ -1,4 +1,4 @@
-package vccorp.domainresgistration.repository.entity;
+package vccorp.domainresgistration.entity;
 
 import lombok.Getter;
 import lombok.Setter;

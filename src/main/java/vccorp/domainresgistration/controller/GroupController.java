@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import vccorp.domainresgistration.dto.response.GroupResponse;
 import vccorp.domainresgistration.factory.ResponseFactory;
 import vccorp.domainresgistration.dto.request.NewGroupRequest;
-import vccorp.domainresgistration.repository.entity.GroupEntity;
 import vccorp.domainresgistration.service.GroupInterface;
 
 @RestController

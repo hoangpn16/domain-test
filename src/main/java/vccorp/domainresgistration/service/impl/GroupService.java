@@ -7,14 +7,9 @@ import org.springframework.stereotype.Service;
 import vccorp.domainresgistration.converter.Converter;
 import vccorp.domainresgistration.dto.request.NewGroupRequest;
 import vccorp.domainresgistration.dto.response.GroupResponse;
-import vccorp.domainresgistration.enumerates.Status;
 import vccorp.domainresgistration.repository.GroupRepository;
-import vccorp.domainresgistration.repository.entity.DomainEntity;
-import vccorp.domainresgistration.repository.entity.GroupEntity;
+import vccorp.domainresgistration.entity.GroupEntity;
 import vccorp.domainresgistration.service.GroupInterface;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class GroupService implements GroupInterface {
